@@ -4,7 +4,7 @@ export const products: Product[] = [
     {
         name: "Pommes",
         options: [
-            { name: "", price: 4.5 },
+            { name: "", price: 4.0 },
         ]
     },
     {

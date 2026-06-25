@@ -1,6 +1,6 @@
 import { Product } from "./models/product";
 
-export const products: Product[] = [
+export const productsKA: Product[] = [
     {
         name: "Pommes",
         options: [
@@ -27,7 +27,7 @@ export const products: Product[] = [
     }
 ];
 
-export const productsIpfmess: Product[] = [
+export const products: Product[] = [
     {
         name: "Messwurst (Paar)",
         flat: true,

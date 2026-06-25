@@ -4,7 +4,7 @@ export const products: Product[] = [
     {
         name: "Pommes",
         options: [
-            { name: "", price: 4.0 },
+            { name: "", price: 4.5 },
         ]
     },
     {
@@ -17,12 +17,6 @@ export const products: Product[] = [
         name: "Messwurst (Stück)",
         options: [
             { name: "im Bröchten", price: 2.5 },
-        ],
-    },
-    {
-        name: "LKW",
-        options: [
-            { name: "", price: 3.5 },
         ],
     },
     {
@@ -59,40 +53,40 @@ export const productsIpfmess: Product[] = [
     {
         name: "Schnitzel",
         options: [
-            { name: "", price: 6.5 },
-            { name: "auf Brötchen", price: 7 },
-            { name: "mit Salat", price: 11.5 },
-            { name: "mit Pommes", price: 11 },
+            { name: "", price: 7 },
+            { name: "auf Brötchen", price: 7.5 },
+            { name: "mit Salat", price: 12.5 },
+            { name: "mit Pommes", price: 11.5 },
         ],
     },
     {
         name: "Hähnchenschnitzel",
         options: [
-            { name: "", price: 4.5 },
-            { name: "auf Brötchen", price: 5 },
-            { name: "mit Salat", price: 9.5 },
-            { name: "mit Pommes", price: 9 },
+            { name: "", price: 5 },
+            { name: "auf Brötchen", price: 5.5 },
+            { name: "mit Salat", price: 10.5 },
+            { name: "mit Pommes", price: 9.5 },
         ],
     },
     {
         name: "Steak",
         options: [
-            { name: "", price: 6 },
-            { name: "mit Salat", price: 11 },
-            { name: "mit Pommes", price: 10.5 },
+            { name: "mit Zwiebeln", price: 6.5 },
+            { name: "mit Salat", price: 12 },
+            { name: "mit Pommes", price: 11 },
         ],
     },
     {
         name: "Currywurst",
         options: [
-            { name: "", price: 6 },
-            { name: "mit Pommes", price: 10 },
+            { name: "", price: 6.5 },
+            { name: "mit Pommes", price: 11 },
         ],
     },
     {
         name: "Schaschlikpfanne",
         options: [
-            { name: "", price: 8 }
+            { name: "", price: 8.5 }
         ]
     },
     {
@@ -102,35 +96,29 @@ export const productsIpfmess: Product[] = [
         ],
     },
     {
-        name: "Gemischter Salat",
-        options: [
-            { name: "", price: 5, },
-        ],
-    },
-    {
         name: "Kartoffelsalat",
         options: [
-            { name: "", price: 5, },
+            { name: "", price: 5.5, },
         ],
     },
     {
         name: "Wurstsalat",
         options: [
-            { name: "mit Brötchen", price: 8 },
+            { name: "mit Brötchen", price: 9 },
         ],
     },
     {
         name: "Frühstück",
         options: [
-            { name: "klein", price: 6 },
-            { name: "groß", price: 9 },
+            { name: "klein", price: 7 },
+            { name: "groß", price: 10 },
         ],
     },
     {
         name: "Weißwurst",
         options: [
-            { name: "", price: 5.5 },
-            { name: "mit Brezel", price: 7 },
+            { name: "", price: 6 },
+            { name: "mit Brezel", price: 7.5 },
         ],
     },
     {
@@ -142,19 +130,25 @@ export const productsIpfmess: Product[] = [
     {
         name: "Brezel",
         options: [
-            { name: "", price: 1.2 },
+            { name: "", price: 1.5 },
         ],
     },
     {
         name: "Kuchen",
         options: [
-            { name: "", price: 3.5 },
+            { name: "", price: 4 },
         ],
     },
     {
         name: "Tasse Kaffe",
         options: [
             { name: "", price: 2.5 },
+        ],
+    },
+    {
+        name: "Pfand",
+        options: [
+            { name: "", price: 1 },
         ],
     },
 ]

@@ -85,7 +85,7 @@ export const products: Product[] = [
     {
         name: "Fleischkäs",
         options: [
-            { name: "mit Zwiebeln", price: 5.5 },
+            { name: "", price: 5.5 },
             { name: "mit Salat", price: 11 },
             { name: "mit Pommes", price: 10 },
         ],

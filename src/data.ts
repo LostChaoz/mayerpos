@@ -51,6 +51,12 @@ export const productsIpfmess: Product[] = [
         ]
     },
     {
+        name: "LKW",
+        options: [
+            { name: "", price: 3.5 },
+        ],
+    },
+    {
         name: "Brötchen",
         options: [
             { name: "", price: 0.5 }
@@ -80,6 +86,14 @@ export const productsIpfmess: Product[] = [
             { name: "", price: 6 },
             { name: "mit Salat", price: 11 },
             { name: "mit Pommes", price: 10.5 },
+        ],
+    },
+    {
+        name: "Fleischkäs",
+        options: [
+            { name: "", price: 5.5 },
+            { name: "mit Salat", price: 11 },
+            { name: "mit Pommes", price: 10 },
         ],
     },
     {
